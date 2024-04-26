@@ -86,3 +86,24 @@ p {
 .main-banner h1 {
     font-size: 54px;
 }
+
+.main-banner p {
+    font-size: 32px;
+}
+
+/* services */
+.services-container {
+    padding: 5rem 0;
+}
+
+.services-container ul {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li {
+    /* crescer dimunir largura-base  */
+    flex: 1 1 200px;
+    
+}
