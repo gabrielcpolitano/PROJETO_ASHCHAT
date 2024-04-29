@@ -1,0 +1,18 @@
+O javascript é uma linguagem muito poderosa, tem grande poder de crescimento, e pode fazer muita muitas coisas.
+
+Para apreder precisa de uma total dedicação.
+
+Client X Server
+
+Cliente: O que acessa as informações de um serviço.
+
+Servidor: É computador gigante, que manda para você o que você quiser. O servidor manda uma copia do arquivo para você. 
+
+Em Resumo: o servidor é responsalvel por enviar os arquivos para o cliente, mas são as ferramentas como js que deixa os arquivos organizados em nossa tela.
+
+
+HTML: conteúdo.
+CSS: estilização.
+JS: inteligencia 
+
+

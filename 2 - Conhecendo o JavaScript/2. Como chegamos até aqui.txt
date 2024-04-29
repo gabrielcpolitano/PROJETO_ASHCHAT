@@ -1,0 +1,54 @@
+1970 
+-- Primordios da Internet.
+-- DARPA
+-- Arpanet => Internet
+
+1993
+-- HTML
+-- Protocolo http
+-- WWW
+-- Moziki (browser)
+
+1994
+-- Netscape (browser)
+
+1995
+-- JavaScript
+
+1997
+-- JS, padronizou a linguagem (ecma)
+-- Ecma Script
+
+2002
+-- Mozilla
+-- Firefox 
+
+2008
+-- Google Chrome (motor interno no browser)V8
+
+2010
+-- Node JS
+
+Ecma Script 
+1997 - 1.0
+1998 - 2.0
+1999 - 3.0
+2009 - ES5
+2015 - ES6
+2016 - ES 2016
+2017 - ES 2017
+2018 - ES 2018
+
+Tecnologias
+-- jQuery
+-- Angular
+-- React 
+-- Vue
+-- Electron 
+-- Ionic 
+-- Condova
+
+NÃO APRENDA SEM APRENDER DE FATO JS 
+
+
+
