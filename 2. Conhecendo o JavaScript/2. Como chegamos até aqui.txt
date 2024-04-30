@@ -7,7 +7,7 @@
 -- HTML
 -- Protocolo http
 -- WWW
--- Moziki (browser)
+-- Mosaic (browser)
 
 1994
 -- Netscape (browser)
@@ -46,7 +46,7 @@ Tecnologias
 -- Vue
 -- Electron 
 -- Ionic 
--- Condova
+-- Cordova
 
 NÃO APRENDA SEM APRENDER DE FATO JS 
 
