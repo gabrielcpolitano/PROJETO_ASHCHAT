@@ -1,0 +1,10 @@
+Comandos básicos
+-- Armazenando dados
+-- Tratamento de dados
+-- Operações com dados
+
+-- Não pule
+-- Anote tudo
+-- Duas telas
+-- Pratique
+-- Compartilhe
