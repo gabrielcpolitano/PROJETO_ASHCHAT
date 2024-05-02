@@ -1,0 +1,5 @@
+Ensina do Básico a criar o primeiro script
+
+alert => alertar
+confirm => confirmação
+prompt => incite o usuário

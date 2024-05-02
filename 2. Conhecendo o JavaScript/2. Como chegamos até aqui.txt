@@ -1,54 +1,23 @@
-1970 
--- Primordios da Internet.
--- DARPA
--- Arpanet => Internet
 
-1993
--- HTML
--- Protocolo http
--- WWW
--- Mosaic (browser)
+Linha do Tempo e Desenvolvimento das Tecnologias Web:
 
-1994
--- Netscape (browser)
+1. Primórdios da Internet e Desenvolvimentos Iniciais (1970 - 1997):
+   - 1970: Início com DARPA e a transformação da Arpanet em Internet.
+   - 1993: Criação do HTML, do protocolo HTTP, da WWW e do navegador Mosaic.
+   - 1994: Lançamento do navegador Netscape.
+   - 1995: Introdução do JavaScript.
+   - 1997: JavaScript é padronizado como ECMAScript (ES).
 
-1995
--- JavaScript
+2. Evolução dos Navegadores e JavaScript (1998 - 2010):
+   - 1998 - 1999: Lançamento das versões ECMAScript 2.0 e 3.0.
+   - 2002: Mozilla introduz o navegador Firefox.
+   - 2008: Google lança o Chrome com o motor V8, um motor JavaScript significativamente mais rápido.
+   - 2009: ECMAScript 5 (ES5) é lançado.
+   - 2010: Introdução do Node.js, permitindo o uso de JavaScript no lado do servidor.
 
-1997
--- JS, padronizou a linguagem (ecma)
--- Ecma Script
+3. Modernização e Frameworks (2011 - 2018):
+   - 2015 - 2018: Evolução contínua do ECMAScript com as versões ES6 a ES 2018, introduzindo recursos modernos e suporte aprimorado para desenvolvimento complexo.
+   - Tecnologias Emergentes: Adoção de bibliotecas e frameworks como jQuery, Angular, React, Vue, além de plataformas para desenvolvimento de aplicativos como Electron, Ionic e Cordova.
 
-2002
--- Mozilla
--- Firefox 
-
-2008
--- Google Chrome (motor interno no browser)V8
-
-2010
--- Node JS
-
-Ecma Script 
-1997 - 1.0
-1998 - 2.0
-1999 - 3.0
-2009 - ES5
-2015 - ES6
-2016 - ES 2016
-2017 - ES 2017
-2018 - ES 2018
-
-Tecnologias
--- jQuery
--- Angular
--- React 
--- Vue
--- Electron 
--- Ionic 
--- Cordova
-
-NÃO APRENDA SEM APRENDER DE FATO JS 
-
-
-
+Observação Importante:
+- Enfoque no Aprendizado de JavaScript: É enfatizado que não se deve aprender tecnologias envolvendo JavaScript sem ter uma compreensão sólida da própria linguagem, destacando a importância do entendimento profundo antes de avançar para frameworks e bibliotecas complexas.
