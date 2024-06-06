@@ -65,11 +65,19 @@ testeArrow()
 const user = {
     name: 'Theo',
     sayUserName() {
+        var self = this
+        setTimeout(function (){
+            console.log(self)
+            console.log('Username: ' + this.name)
+        }, 700)
+    },
+    sayUserNameArrow() {
         setTimeout(() => {
             console.log(this)
-            console.log("Gabriel: " + this.name)
-        }, 500)
+            console.log(this.name)
+        }, 700)
     }
 }
 
 user.sayUserName()
+user.sayUserNameArrow()
