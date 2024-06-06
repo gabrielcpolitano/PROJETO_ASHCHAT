@@ -1,4 +1,4 @@
-// Diferença de variaveis em escopo em blocco
+// 1 Diferença de variaveis em escopo em blocco
 
 // var
 var number = 1
@@ -107,3 +107,19 @@ const notAvailableUsers = users.filter((user) => !user.available)
 
 console.log(availableUsers)
 console.log(notAvailableUsers)
+
+// 4 map
+const products = [
+    {name: 'Camisa', price: 10.99, category: 'Roupas'},
+    {name: 'Chaleira Elétrica', price: 49.99, category: 'Eletro'},
+    {name: 'Fogão',price: 400, category: 'Eletro'},
+    {name: 'Calça jeans', price: 50.99, category: 'Roupas'},
+]
+
+products.map((products) => {
+    if (products.category === 'Roupas') {
+        products.PROMOÇÃO = true
+    }
+})
+
+console.log(products)
