@@ -68,16 +68,27 @@ const user = {
         var self = this
         setTimeout(function (){
             console.log(self)
-            console.log('Username: ' + this.name)
-        }, 700)
+            console.log('Username: ' + self.name)
+        }, 4000)
     },
     sayUserNameArrow() {
         setTimeout(() => {
             console.log(this)
-            console.log(this.name)
-        }, 700)
+            console.log('Username: ' + this.name)
+        }, 4000)
     }
 }
 
 user.sayUserName()
 user.sayUserNameArrow()
+
+// 3 filter
+const array = [1, 2, 3, 4, 5]
+
+const highNumbers = array.filter((n) => {
+    if (n >= 3) {
+        return n
+    }
+})
+
+console.log(highNumbers)
