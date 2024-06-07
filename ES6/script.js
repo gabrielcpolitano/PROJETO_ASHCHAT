@@ -131,36 +131,52 @@
 // console.log(`O nome do usuário é ${userName} e ele tem ${age} anos.`)
 
 // // 6 destructuring
-const fruit = ["Maça", "Laranja", "Mamão"]
+// const fruit = ["Maça", "Laranja", "Mamão"]
 
-const [f1, f2, f3] = fruit
+// const [f1, f2, f3] = fruit
 
-console.log(f1)
-console.log(fruit[0])
+// console.log(f1)
+// console.log(fruit[0])
 
-console.log(f2)
-console.log(fruit[1])
+// console.log(f2)
+// console.log(fruit[1])
 
-console.log(f3)
-console.log(fruit[2])
+// console.log(f3)
+// console.log(fruit[2])
 
-const productDetails = {
-    name: "Mouse",
-    price: 39.99,
-    category: "Tech",
-    color: "red"
-}
+// const productDetails = {
+//     name: "Mouse",
+//     price: 39.99,
+//     category: "Tech",
+//     color: "red"
+// }
 
-const {name: productName, price: productPrice, category: productCategory, color: productColor} = productDetails
+// const {name: productName, price: productPrice, category: productCategory, color: productColor} = productDetails
 
-console.log(productName)
-console.log(productDetails[productName])
+// console.log(productName)
 
-console.log(productPrice)
-console.log(productDetails[1])
+// console.log(productPrice)
 
-console.log(productCategory)
-console.log(productDetails[2])
+// console.log(productCategory)
 
-console.log(productColor)
-console.log(productDetails[3])
+// console.log(productColor)
+
+// // 7 spread operator
+const a1 = [1, 2, 3]
+const a2 = [4, 5, 6]
+
+const a3 = [...a1, ...a2]
+
+const a4 = [1, ...a2, 7]
+
+console.log(a3)
+
+console.log(a4)
+
+const carColor = {color: "red"}
+const carBrand = {brand: "Gol"}
+const carYear = {year: 1994}
+
+const car = {...carColor, ...carBrand, ...carYear}
+
+console.log(car)
