@@ -162,21 +162,22 @@
 // console.log(productColor)
 
 // // 7 spread operator
-const a1 = [1, 2, 3]
-const a2 = [4, 5, 6]
+// const a1 = [1, 2, 3]
+// const a2 = [4, 5, 6]
 
-const a3 = [...a1, ...a2]
+// const a3 = [...a1, ...a2]
 
-const a4 = [1, ...a2, 7]
+// const a4 = [1, ...a2, 7]
 
-console.log(a3)
+// console.log(a3)
 
-console.log(a4)
+// console.log(a4)
 
-const carColor = {color: "red"}
-const carBrand = {brand: "Gol"}
-const carYear = {year: 1994}
+// const carColor = {color: "red"}
+// const carBrand = {brand: "Gol"}
+// const carYear = {year: 1994}
 
-const car = {...carColor, ...carBrand, ...carYear}
+// const car = {...carColor, ...carBrand, ...carYear}
 
-console.log(car)
+// console.log(car)
+
