@@ -1,6 +1,7 @@
-.fraseContainer {
-    background-color: #333;
-    border: 1px solid #111;
+.fraseContainer p{
+    background-color: #111;
+    color: white;
+    
 }
 
 .fraseContent{
