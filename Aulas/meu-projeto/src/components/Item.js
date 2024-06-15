@@ -13,4 +13,9 @@ Item.propTypes = {
     ano_lancamento: PropTypes.number.isRequired
 }
 
+Item.defaultProps = {
+    marca: "Faltou marca",
+    ano_lancamento: "Faltou ano de lançamento"
+}
+
 export default Item
