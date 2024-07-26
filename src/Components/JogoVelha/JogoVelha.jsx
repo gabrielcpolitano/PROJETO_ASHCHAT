@@ -9,6 +9,17 @@ function JogoVelha() {
   let [contar, setContar] = useState(0);
   let [prender, setPrender] = useState(false);
   let referencia = useRef(null);
+  let box1 = useRef(null);
+  let box2 = useRef(null);
+  let box3 = useRef(null);
+  let box4 = useRef(null);
+  let box5 = useRef(null);
+  let box6 = useRef(null);
+  let box7 = useRef(null);
+  let box8 = useRef(null);
+  let box9 = useRef(null);
+
+  let box_array = [box1, box2, box3, box4, box5, box6, box7, box8, box9];
 
   const escolha = (e, numero) => {
     if(prender) {
@@ -93,6 +104,9 @@ function JogoVelha() {
     setPrender(false);
     data = ["", "", "", "", "", "", "", "", ""];
     referencia.current.innerHTML = `Jogo da Velha`;
+    box_array.forEach((e) => {
+      e.current.innerHTML = "";
+    })
   }
 
 
@@ -102,19 +116,19 @@ function JogoVelha() {
       <h1 className="title" ref={referencia}>Jogo da Velha</h1>
       <div className="board">
         <div className="row1">
-          <div className="boxes" onClick={(e)=>{escolha(e,0)}}></div>
-          <div className="boxes" onClick={(e)=>{escolha(e,1)}}></div>
-          <div className="boxes" onClick={(e)=>{escolha(e,2)}}></div>
+          <div className="boxes" ref={box1} onClick={(e)=>{escolha(e,0)}}></div>
+          <div className="boxes" ref={box2} onClick={(e)=>{escolha(e,1)}}></div>
+          <div className="boxes" ref={box3} onClick={(e)=>{escolha(e,2)}}></div>
         </div>
         <div className="row2">
-          <div className="boxes" onClick={(e)=>{escolha(e,3)}}></div>
-          <div className="boxes" onClick={(e)=>{escolha(e,4)}}></div>
-          <div className="boxes" onClick={(e)=>{escolha(e,5)}}></div>
+          <div className="boxes" ref={box4} onClick={(e)=>{escolha(e,3)}}></div>
+          <div className="boxes" ref={box5} onClick={(e)=>{escolha(e,4)}}></div>
+          <div className="boxes" ref={box6} onClick={(e)=>{escolha(e,5)}}></div>
         </div>
         <div className="row3">
-          <div className="boxes" onClick={(e)=>{escolha(e,6)}}></div>
-          <div className="boxes" onClick={(e)=>{escolha(e,7)}}></div>
-          <div className="boxes" onClick={(e)=>{escolha(e,8)}}></div>
+          <div className="boxes" ref={box7} onClick={(e)=>{escolha(e,6)}}></div>
+          <div className="boxes" ref={box8} onClick={(e)=>{escolha(e,7)}}></div>
+          <div className="boxes" ref={box9} onClick={(e)=>{escolha(e,8)}}></div>
         </div>
       </div>
       <button className="button-85"onClick={()=>{reset()}}>Recomeçar</button>
