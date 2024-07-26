@@ -23,8 +23,12 @@ function JogoVelha() {
 
   const escolha = (e, numero) => {
     if(prender) {
-      return 0
+      return 0;
     }
+    if(data[numero] !== "") {
+      return; // Impede o clique se a caixa já estiver preenchida
+    }
+    
     if(contar%2 === 0) {
       e.target.innerHTML = `<img src='${cross_icon}'>`;
       data[numero] = "x";
