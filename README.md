@@ -1,46 +1,70 @@
-# Vendas de Carros
+# Getting Started with Create React App
 
-Bem-vindo ao repositório do Vendas de Carros, uma plataforma dinâmica para compra com gerenciamento de catálogos de veículos incluindo carros, motos. Isso tudo com a segurança que você precisa.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Descrição
+## Available Scripts
 
-O Vendas de Carros oferece uma interface amigável para explorar diversos tipos de veículos disponíveis para venda. A plataforma permite filtrar veículos por ano, condição (novo ou usado) e categorias. Os usuários podem visualizar detalhes como preço, ano de fabricação e imagem do veículo.
+In the project directory, you can run:
 
-**Status:** 🚧 Projeto em andamento 🚧
+### `npm start`
 
-## Tecnologias Utilizadas
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- HTML
-- CSS (incluindo `styles.css` e `login.css`)
-- JavaScript (manipulação dinâmica com `index.js`)
-- JSON (dados dos veículos em `vehicle.json`)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Instalação
+### `npm test`
 
-Para rodar o Vendas de Carros localmente, siga estes passos:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Clone o repositório para sua máquina local:
-   ```bash
-   git clone [URL do repositório]
-   ```
-2. Navegue até a pasta do projeto e abra o arquivo `index.html` em seu navegador.
+### `npm run build`
 
-## Uso
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Após abrir o `index.html` no navegador, a aplicação será carregada e pronta para ser usada. Navegue entre as diferentes categorias de veículos através das abas na parte superior da página. Utilize os filtros disponíveis para refinar sua busca.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Desenvolvedores
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- [**Gabriel Politano**](https://github.com/gabrielcpolitano) - Desenvolvedor Front-end / Analista de Dados
-- [**Giselle Cristina**](https://github.com/Giselle2023) - Desenvolvedora Front-end
-- [**Andre-MB**](https://github.com/Andre-MB) - Desenvolvedora Back-end
+### `npm run eject`
 
-## Contribuições
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Contribuições são sempre bem-vindas! Para contribuir:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. Fork o projeto
-2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
-3. Faça o Commit de suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a Branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
