@@ -1,13 +1,15 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './JogoVelha.css';
 import circle_icon from '../Assets/circle.png';
 import cross_icon from '../Assets/cross.png';
+import background_music from '../Assets/background.mp3';
 
 let data = ["", "", "", "", "", "", "", "", ""];
 
 function JogoVelha() {
   let [contar, setContar] = useState(0);
   let [prender, setPrender] = useState(false);
+  const [musicaIniciada, setMusicaIniciada] = useState(false);
   let referencia = useRef(null);
   let box1 = useRef(null);
   let box2 = useRef(null);
@@ -21,6 +23,27 @@ function JogoVelha() {
 
   let box_array = [box1, box2, box3, box4, box5, box6, box7, box8, box9];
 
+   useEffect(() => {
+    const audio = new Audio(background_music);
+    audio.loop = true; // Para repetir a música em loop
+
+    let timeoutId;
+    if (musicaIniciada) {
+      timeoutId = setTimeout(() => {
+        audio.play();
+      }, 1000);
+    }
+ 
+
+
+
+    return () => {
+      audio.pause();
+      audio.currentTime = 0;
+      clearTimeout(timeoutId);
+    };
+  }, [musicaIniciada]);
+
   const escolha = (e, numero) => {
     if(prender) {
       return 0;
@@ -28,7 +51,9 @@ function JogoVelha() {
     if(data[numero] !== "") {
       return; // Impede o clique se a caixa já estiver preenchida
     }
-    
+    if (!musicaIniciada) {
+      setMusicaIniciada(true); // Inicia a música após a primeira interação
+    }
     if(contar%2 === 0) {
       e.target.innerHTML = `<img src='${cross_icon}'>`;
       data[numero] = "x";
