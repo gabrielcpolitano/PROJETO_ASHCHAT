@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar com Tailwind</title>
+
+	<!-- Fonte GOOGLE -->
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	
+	<!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body style="background-color: #19181f;" class="pt-16">
+
+	<!-- NAVBAR -->
+  <header>
+    <nav class="bg-gray-900 text-white md:text-2xl fixed top-0 left-0 w-full z-50" style="font-family: 'Kenia', sans-serif;">
+      <div class="container mx-auto flex items-center justify-between p-4">
+        <!-- Logo -->
+        <a href="#" class="text-2xl font-bold inline-flex md:text-3xl">
+					<img src="src/img/file 2.png" alt="logo" class="w-8 mr-2">AshChat
+				</a>
+
+        
+        <!-- Menu -->
+        <div id="menu" class="hidden md:flex space-x-4 ">
+          <a href="#home" class="hover:bg-gray-700 px-3 py-2 rounded">Home</a>
+          <a href="#download" class="hover:bg-gray-700 px-3 py-2 rounded">Download</a>
+          <a href="#contribution" class="hover:bg-gray-700 px-3 py-2 rounded">Contribution</a>
+          <a href="#about" class="hover:bg-gray-700 px-3 py-2 rounded">About</a>
+        </div>
+        
+        <!-- Botão para Mobile -->
+        <button id="menu-toggle" class="md:hidden block text-white focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Menu Mobile -->
+      <div id="mobile-menu" class="md:hidden hidden flex flex-col space-y-2 px-4 pb-4 bg-gray-800">
+        <a href="#home" class="hover:bg-gray-700 px-3 py-2 rounded">Home</a>
+        <a href="#sobre" class="hover:bg-gray-700 px-3 py-2 rounded">Sobre</a>
+        <a href="#servicos" class="hover:bg-gray-700 px-3 py-2 rounded">Serviços</a>
+        <a href="#contato" class="hover:bg-gray-700 px-3 py-2 rounded">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+	<!-- HOME -->
+	<section>
+		<div class="container mx-auto px-14 mt-10">
+			<div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+				<!-- Texto -->
+				<div class="md:w-1/2 text-center md:text-left">
+					<h2 class="text-4xl md:text-6xl font-bold text-gray-300" style="font-family: 'Lilita One', sans-serif;">
+						Chat Without Borders, In Your Language
+					</h2>
+					<p class="text-gray-300 mt-4 text-lg md:text-2xl" style="font-family: 'Poppins', sans-serif;">
+						Perfect for connecting people worldwide, breaking language barriers. Chat with friends, family, or build global communities. Customize your experience and enjoy real-time translations for seamless and natural communication.
+					</p>
+				</div>
+	
+				<!-- Imagem -->
+				<div class="flex justify-center md:min-w-32">
+					<img src="/src/img/file 1.png" alt="Imagem" class="w-full max-w-md md:max-w-3xl rounded-lg shadow-lg">
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+
+
+
+  <script>
+    // Seleciona os elementos do menu e botão
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    // Adiciona o evento de clique ao botão
+    menuToggle.addEventListener('click', () => {
+      // Alterna a classe 'hidden' para mostrar/ocultar o menu
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
